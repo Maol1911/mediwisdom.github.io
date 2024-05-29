@@ -53,26 +53,11 @@ nav ul {
     max-width: 1000px;
     margin: auto;
     border: none;
+
 }
 main {
 	float: left;
-	width: 60%;
-}
-aside {
-	float: right;
-	width: 30%;
-}
-article {
-    border-bottom: 2px dotted #999;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-}
-article h2 {
-    font-weight: normal;
-    margin-bottom: 12px;
-}
-article p {
-	
+	width: 100%;
 }
 main section {
 	
@@ -84,25 +69,22 @@ footer {
 	margin: auto;
 	clear: both;
 	text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
+
 footer p {
 	padding: 20px;
 }
 
 footer img {
     width: 100%;
-    max-width: 150px;
+    max-width: 100px;
     margin-right: 10px;
 }
-address {
-    padding: 10px 20px 30px 10px;
-}
-aside > div {
-	margin: 10px auto;
-	background: #00008B;
-	min-height: 100px;
-	color: #fff;
-}
+
+
 #logo {
     display: inline-block;
     vertical-align: middle;
@@ -117,11 +99,10 @@ aside > div {
     margin-right: 10px;
 }
 #main img {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 51%;
-height: 51%;
+width: 52%;
+height: 52%;
+margin: 1.9px;
+
 }
 
 body > section {
@@ -142,9 +123,4 @@ body > section {
 		float: none;
 		width: 100%;
 	}
-	aside {
-		float: none;
-		width: 100%;
-	}
-
 }

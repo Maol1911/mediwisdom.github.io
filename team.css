@@ -3,6 +3,12 @@
     transition: all .3s ease;
     cursor: pointer;
     text-align: center;
+
+
+    p {
+    margin: 10.1px;
+    }	
+
 }
 
 .team-member:hover {
@@ -13,6 +19,11 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin: 5px;
+    margin: 10px;
+}
+
+.team {
+    margin: 69.5px;	
+
 }
 
